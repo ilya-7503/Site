@@ -1,1 +1,26 @@
 // app global css in SCSS form
+
+a, a:hover, a:active, a:focus {
+  text-decoration:none;
+}
+
+.border-btn {
+  border-radius: 5px;
+}
+.border {
+  border-radius: 10px;
+}
+.narrow-block {
+  max-width:1440px!important;
+  width: 100%;
+  margin: 0 auto!important;
+}
+.bg-main {
+  background: url('../../public/Диван_главная.jpg');
+  background-size: 100% ;
+
+}
+.q-footer {
+  position:inherit;
+}
+
